@@ -1,29 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c81003e8-524c-4bd5-bc3b-e2251a8be5ec" name="Changes" comment="" />
+    <list default="true" id="c81003e8-524c-4bd5-bc3b-e2251a8be5ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bcpkix_jdk18on_1_76.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng_6_14_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/MethodListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/PageGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/VerificationFailures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObject/AddNewPostPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObject/AdminLoginPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObject/DashboardPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObject/MyHomePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObject/ViewPostPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/adminUI/AddNewPostPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/adminUI/AdminLoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/adminUI/BasePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/adminUI/DashboardPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/adminUI/ViewPostPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/bcpkix-jdk18on-1.76.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/bcprov-jdk18on-1.76.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/bcutil-jdk18on-1.76.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/commons-compress-1.24.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/commons-io-2.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/commons-lang3-3.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/dec-0.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/docker-java-3.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/docker-java-api-3.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/docker-java-core-3.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/docker-java-transport-3.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/docker-java-transport-httpclient5-3.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/gson-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/guava-19.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/httpclient5-5.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/httpcore5-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/httpcore5-h2-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/jackson-annotations-2.10.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/jackson-core-2.10.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/jackson-databind-2.10.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/jcl-over-slf4j-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/jna-5.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/slf4j-api-2.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libWebDriverManager/webdrivermanager-5.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-server-standalone-3.141.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/testng-6.14.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/User/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/User/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress-project.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ClaraVo73&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ClaraVo73/wordpress-project.git&quot;,
+    &quot;accountId&quot;: &quot;14a71721-f1fc-4641-a90d-2ddcc3fc1718&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2kbp34t3nSlvJYfAPiaXlO2v1fN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Applications/Code/3. Java Hybrid Framework/wordpress-project/resources/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/Code/3. Java Hybrid Framework/wordpress-project/actions/commons&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/actions/commons" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/libraries" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/actions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="User" />
+      <recent name="commons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Applications/Code/3. Java Hybrid Framework/wordpress-project/resources/testng.xml">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="wordpress-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Applications/Code/3. Java Hybrid Framework/wordpress-project/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wordpress-project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Applications/Code/3. Java Hybrid Framework/wordpress-project/resources/testng.xml" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>
