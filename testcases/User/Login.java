@@ -3,6 +3,10 @@ package User;
 import commons.BaseTest;
 import commons.GlobalConstants;
 import commons.PageGeneratorManager;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -28,6 +32,10 @@ public class Login extends BaseTest {
     public void TC_01_Login_Empty_UserName() {
         adminLoginPage.clickOnContinueButton();
         verifyEquals(adminLoginPage.getTextErrorMessage(), "Please enter a username or email address.");
+//        JavascriptExecutor js =  (JavascriptExecutor) driver;
+//        js.executeScript("arguments[0].removeAttribute('disabled');", driver.findElement(By.id("")) );
+//        driver.findElement(By.id("")).sendKeys();
+//        Select select = new Select(driver.findElement(By.xpath("")));
     }
 
     @Test
